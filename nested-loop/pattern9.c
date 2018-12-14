@@ -22,4 +22,3 @@ int main()
     scanf("%d", &input);
     shiv(input);
     return 0;
-}
