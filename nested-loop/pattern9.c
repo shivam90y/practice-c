@@ -1,7 +1,7 @@
 #include <stdio.h>
 void shiv(int num)
 {
-    int i, j, k = 1;
+    int i, j, k, len = 1;
     for (i = 1; i <= num; i++)
     {
         for (j = num; j >= i; j--)
@@ -13,7 +13,7 @@ void shiv(int num)
             printf("*");
         }
         printf("\n");
-        k = k + 1;
+        len = len + 1;
     }
 }
 int main()
@@ -22,3 +22,4 @@ int main()
     scanf("%d", &input);
     shiv(input);
     return 0;
+}
