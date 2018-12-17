@@ -5,10 +5,9 @@ void shivam(int num)
     for (i = 0; i < num; i++)
     {
         for (j = 0; j < num; j++)
-
         {
             if (i == j)
-                printf("%d", 2);
+                printf("%d", 1);
             else
                 printf("%d", 0);
         }
